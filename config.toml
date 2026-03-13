@@ -1,6 +1,5 @@
-base_url = "https://roderic.me" 
+base_url = "https://notcandy001.github.io"
 title = "Rahul"
-
 description = "I build things to understand them."
 theme = "ametrine"
 compile_sass = true
