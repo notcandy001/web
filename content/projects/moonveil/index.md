@@ -2,7 +2,8 @@
 title = "Moonveil"
 date = 2024-01-01
 weight = 1
-description = "an extremely customizable and Usability Dots." path = "/moonveil"
+description = "an extremely customizable and Usability Dots." 
+path = "/moonveil"
 
 [taxonomies]
 tags = ["linux", "hyprland", "dotfiles", "web"]
