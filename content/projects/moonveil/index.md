@@ -49,7 +49,7 @@ links = [
 ## Installation
 
 {% crt() %}
-curl -sL https://moonveil-web.vercel.app/dots/stable | bash
+curl -L get.roderic.me/moonveil | sh
 {% end %}
 
 
