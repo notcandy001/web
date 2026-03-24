@@ -52,6 +52,27 @@ links = [
 curl -L get.roderic.me/moonveil | sh
 {% end %}
 
+## Features 
+- [x] Matugen powered dynamic colors 
+- [x] **CrescentShell**  
+- [x] Floating notch
+- [x] Cava music visualizer in the notch
+- [x] Barcode lockscreen 
+- [x] Power profile switcher
+- [x] Wallpaper manager 
+- [x] App launcher and workspace overview
+- [x] Notification center
+- [x] Control center with quick toggles
+- [x] Media controls
+- [x] Volume and brightness sliders
+- [x] Screenshot and screen region capture
+- [x] Calendar and todo widget
+- [x] Smooth animations throughout
+- [x] Customizable keybindings
+- [ ] Clipboard manager
+- [ ] Emoji picker
+- [ ] Dashboard widget
+
 
 ## About
 
