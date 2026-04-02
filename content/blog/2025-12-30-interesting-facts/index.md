@@ -4,7 +4,7 @@ date = 2025-12-30
 description = "A quiet story about love, memory, and the things that never happened i hope u read it  :) "
 
 [taxonomies]
-tags = ["personal"]
+tags = ["personal story"]
 +++
 
 
