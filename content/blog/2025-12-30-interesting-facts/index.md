@@ -324,5 +324,16 @@ those feelings can exist without being questioned.
 
 ---
 
-And this is how the tale of the fool ended.
+It might feel like a story to you.
+
+But for me,  
+it was never just words.
+
+It was something I lived,  
+something I felt,  
+something I couldn’t keep.
+
+And maybe…
+
+this isn’t where it truly ends.
 
