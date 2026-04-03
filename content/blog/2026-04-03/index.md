@@ -1,6 +1,6 @@
 +++
 title = "The Tale of the Fool"
-date = 2026-04-3
+date = 2026-04-03
 description = "A quiet story about love, memory, and the things that never happened i hope u read it  :) "
 
 [taxonomies]
