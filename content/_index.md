@@ -1,18 +1,18 @@
 +++
-title = "Rahul"
+title = “Rahul”
 [extra]
-scripts = ["js/home.js", "js/shy.js"]
+scripts = [“js/home.js”, “js/shy.js”]
 no_header = true
 socials = [
-    { name = "Reddit", url = "https://www.reddit.com/user/praizeTheFool/", icon = "/social-icons/16x/reddit_icon_bg.png" },
-    { name = "Instagram", url = "https://www.instagram.com", icon = "/social-icons/16x/instagram_icon_bg.png" },
+{ name = “Reddit”, url = “https://www.reddit.com/user/praizeTheFool/”, icon = “/social-icons/16x/reddit_icon_bg.png” },
+{ name = “Instagram”, url = “https://www.instagram.com”, icon = “/social-icons/16x/instagram_icon_bg.png” },
 ]
 forges = [
-    { name = "GitHub", url = "https://github.com/notcandy001", icon = "/social-icons/16x/github_icon_bg.png" },
+{ name = “GitHub”, url = “https://github.com/notcandy001”, icon = “/social-icons/16x/github_icon_bg.png” },
 ]
 contacts = [
-    { name = "Discord", url = "https://discord.com/channels/1396466557760176280/1396466558313693196", icon = "/social-icons/16x/discord_icon_bg.png" },
-    { name = "Email", url = "mailto:candynot8@gmail.com", icon = "/social-icons/16x/domain_icon_bg.png" },
+{ name = “Discord”, url = “https://discord.com/channels/1396466557760176280/1396466558313693196”, icon = “/social-icons/16x/discord_icon_bg.png” },
+{ name = “Email”, url = “mailto:candynot8@gmail.com”, icon = “/social-icons/16x/domain_icon_bg.png” },
 ]
 +++
 
@@ -25,7 +25,8 @@ I'm <mark>Rahul</mark>. You probably know me as <mark>notcandy001</mark> or <mar
 </p>
 </div>
 
-{{ retro_avatar(src="/images/avatar.png", alt="Rahul") }}
+{{ retro_avatar(src=”/images/avatar.png”, alt=“Rahul”) }}
+
 </div>
 <div id="scroll-target" style="position: absolute; bottom: 110px; left: 50%; width: 1px; height: 1px; z-index: -1;"></div>
 
@@ -75,9 +76,9 @@ I'm <mark>Rahul</mark>. You probably know me as <mark>notcandy001</mark> or <mar
 
 **I build things to understand them.**
 
-**I'm {{ age() }} years old.**
+**I’m {{ age() }} years old.**
 
-I was born September 12, 2006. Since then I've been curious about how things actually work beneath the surface. While most people are happy just using software, I like digging deeper into the kernel, the compositor, the configs, and the systems that make everything run.
+I was born September 12, 2006. Since then I’ve been curious about how things actually work beneath the surface. While most people are happy just using software, I like digging deeper into the kernel, the compositor, the configs, and the systems that make everything run.
 
 For me, understanding a system is more interesting than simply using it. I want to know why something works, not just that it works.
 
@@ -88,6 +89,7 @@ Outside of computers, I enjoy cliff jumping, swimming, diving, trekking with fri
 <article class="fancy-list">
 
 **✨ Areas of Focus:**
+
 - Linux internals
 - Hyprland customization
 - TypeScript
@@ -101,9 +103,9 @@ Outside of computers, I enjoy cliff jumping, swimming, diving, trekking with fri
 
 <article>
 
-{{ github_grid(username="notcandy001", color="#40c463") }}
+{{ github_grid(username=“notcandy001”, color=”#40c463”) }}
 
-I genuinely enjoy coding and problem-solving. There's something satisfying about understanding exactly why something works not just that it works. :)
+I genuinely enjoy coding and problem-solving. There’s something satisfying about understanding exactly why something works not just that it works. :)
 
 </article>
 </li>
@@ -113,7 +115,7 @@ I genuinely enjoy coding and problem-solving. There's something satisfying about
 
 **👾 I study Computer Science.**
 
-My curiosity about how computers actually work led me here. I get to dig into the things I've always wondered about — OS internals, language design, how abstractions are built from the ground up.
+My curiosity about how computers actually work led me here. I get to dig into the things I’ve always wondered about — OS internals, language design, how abstractions are built from the ground up.
 
 </article>
 
@@ -121,7 +123,15 @@ My curiosity about how computers actually work led me here. I get to dig into th
 
 **🔧 I like tinkering and building custom tools.**
 
-I'm obsessed with building my own tools and workflows. People say not to reinvent the wheel, but I think custom tools can unlock freedom and a deeper understanding. Just like every person is unique, the tools they use can be too. :D
+I’m obsessed with building my own tools and workflows. People say not to reinvent the wheel, but I think custom tools can unlock freedom and a deeper understanding. Just like every person is unique, the tools they use can be too. :D
+
+</article>
+
+<article class="fancy-list anime">
+
+**🎌 Anime I’ve watched:**
+
+{{ anime() }}
 
 </article>
 </li>
@@ -156,14 +166,14 @@ Where and when to find me online.
 <article class="online fancy-list">
 <strong id="contacts" class="title">Contacts</strong>
 
-For me it's currently <mark><time id="clock">00:00</time></mark> <small>(IST)</small> and I'm <span id="online-indicator"><i class="icon"></i><span id="online-indicator-text">Offline</span></span>.
+For me it’s currently <mark><time id="clock">00:00</time></mark> <small>(IST)</small> and I’m <span id="online-indicator"><i class="icon"></i><span id="online-indicator-text">Offline</span></span>.
 
 Feel free to reach out on any of these!
 
-{{ online(type="contacts") }}
+{{ online(type=“contacts”) }}
 
 </article>
 </li>
 </ul>
-</section>
 
+</section>
