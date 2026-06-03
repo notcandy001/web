@@ -1,5 +1,5 @@
 +++
-title = "SLV Bakers"
+title = "lumi language"
 date = 2026-02-01
 weight = 2
 description = "First modern language that can be written like english."
