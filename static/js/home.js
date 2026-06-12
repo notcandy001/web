@@ -1,4 +1,3 @@
-/* Constants and DOM Elements =============================================== */
 
 const lastFmUser = "LASTFMUSER";
 
@@ -11,12 +10,12 @@ const lastFmUser = "LASTFMUSER";
     const lastPlayed = document.getElementById('last-played');
     const nowPlaying = document.getElementById('now-playing');
     const cover = document.getElementById('cover');
-    if (title) title.textContent = 'Andaaz E Karam';
-    if (artist) artist.textContent = 'Darshan Raval';
-    if (link) link.href = 'https://music.apple.com/in/album/andaaz-e-karam/1845803336?i=1845803343';
+    if (title) title.textContent = 'Bad Apple!! (Full Version)';
+    if (artist) artist.textContent = 'girl_dm_ & Darkbluecat';
+    if (link) link.href = 'https://music.apple.com/us/song/bad-apple-full-version/1725143430';
     if (lastPlayed) { lastPlayed.style.display = 'inline'; }
     if (nowPlaying) { nowPlaying.style.display = 'none'; }
-    if (cover) cover.src = '/home/andaaz-cover.jpg';
+    if (cover) cover.src = '/home/bad-apple-cover.jpg';
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setStaticSong);
@@ -45,7 +44,6 @@ let lastTrackID = null;
 let lastDiscordStatus = "";
 let lastTime = "";
 
-/* Functions ================================================================ */
 
 // Last.fm
 async function fetchLastFm() {
@@ -144,7 +142,6 @@ function updateClock() {
 	}
 }
 
-/* Initialization and Event Listeners ======================================= */
 
 document.addEventListener("DOMContentLoaded", function () {
 	if (lastFmPlayer) {
