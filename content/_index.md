@@ -129,16 +129,23 @@ I'm obsessed with building my own tools and workflows. People say not to reinven
 
 <article class="fancy-list games">
 <strong class="title">Games I Like</strong>
+<input class="visually-hidden" id="show-more" type="checkbox" name="show-more" autocomplete="off" />
+<label for="show-more">
+<span class="more">Show More…</span>
+<span class="less">Show Less…</span>
+</label>
 <ul>
 <li><a href="https://www.minecraft.net/"><img class="transparent no-hover" alt="Cover art of Minecraft." src="https://cdn2.steamgriddb.com/thumb/a73027901f88055aaa0fd1a9e25d36c7.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1091500"><img class="transparent no-hover" alt="Capsule art of Cyberpunk 2077." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1245620"><img class="transparent no-hover" alt="Capsule art of Elden Ring." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/2358720"><img class="transparent no-hover" alt="Capsule art of Black Myth: Wukong." src="https://shared.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900.jpg" /></a></li>
+</ul>
+<ul class="games-extra">
 <li><a href="https://store.steampowered.com/app/2215430"><img class="transparent no-hover" alt="Capsule art of Ghost of Tsushima Director's Cut." src="https://shared.steamstatic.com/store_item_assets/steam/apps/2215430/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1222140"><img class="transparent no-hover" alt="Capsule art of Detroit: Become Human." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1222140/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/447040"><img class="transparent no-hover" alt="Capsule art of Watch Dogs 2." src="https://shared.steamstatic.com/store_item_assets/steam/apps/447040/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1593500"><img class="transparent no-hover" alt="Capsule art of God of War (2018)." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900.jpg" /></a></li>
-<li><a href="https://store.steampowered.com/app/3768760"><img class="transparent no-hover" alt="Capsule art of 007 First Light." src="https://shared.steamstatic.com/store_item_assets/steam/apps/3768760/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/3768760"><img class="transparent no-hover" alt="Capsule art of 007 First Light." src="https://cdn2.steamgriddb.com/thumb/9cd0f2a7c17876d6721916f09bce496c.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1551360"><img class="transparent no-hover" alt="Capsule art of Forza Horizon 5." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1551360/library_600x900.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/812140"><img class="transparent no-hover" alt="Capsule art of Assassin's Creed Odyssey." src="https://shared.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900.jpg" /></a></li>
 </ul>
