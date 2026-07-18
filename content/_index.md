@@ -128,12 +128,14 @@ I'm obsessed with building my own tools and workflows. People say not to reinven
 </article>
 
 <article class="fancy-list games">
+<div class="games-header">
 <strong class="title">Games I Like</strong>
 <input class="visually-hidden" id="show-more" type="checkbox" name="show-more" autocomplete="off" />
 <label for="show-more">
 <span class="more">Show More…</span>
 <span class="less">Show Less…</span>
 </label>
+</div>
 <ul>
 <li><a href="https://www.minecraft.net/"><img class="transparent no-hover" alt="Cover art of Minecraft." src="https://cdn2.steamgriddb.com/thumb/a73027901f88055aaa0fd1a9e25d36c7.jpg" /></a></li>
 <li><a href="https://store.steampowered.com/app/1091500"><img class="transparent no-hover" alt="Capsule art of Cyberpunk 2077." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg" /></a></li>

@@ -14,6 +14,13 @@
     filter: blur(0.125rem);
   }
 
+  .games-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
   ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -55,11 +62,12 @@
   img {
     border-radius: inherit;
     width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top;
   }
 
   #show-more {
-    position: absolute;
-
     &:focus-visible + label {
       animation: focus-in var(--transition);
       outline: 0.125rem solid var(--accent-color);
@@ -77,19 +85,18 @@
     & + label {
       -webkit-user-select: none;
       display: flex;
-      position: absolute;
+      flex-shrink: 0;
       transition:
         all var(--transition),
         transform var(--transition-bezier);
-      inset-block-start: 0.5rem;
-      inset-inline-end: 0.5rem;
       border-radius: var(--rounded-corner-small);
-      padding: 0.75rem 0.5rem;
+      padding: 0.5rem 0.5rem;
       color: var(--fg-muted-1);
       font-weight: var(--font-weight-semi-bold);
       font-size: var(--font-size-small);
       line-height: 1rem;
       user-select: none;
+      cursor: pointer;
 
       &:hover {
         box-shadow: var(--edge-highlight);
@@ -106,21 +113,19 @@
       }
     }
 
-    &:checked {
-      & + label {
-        .more {
-          display: none;
-        }
-
-        .less {
-          display: inline;
-        }
+    &:checked + label {
+      .more {
+        display: none;
       }
 
-      & ~ .games-extra {
-        display: grid;
+      .less {
+        display: inline;
       }
     }
+  }
+
+  &:has(#show-more:checked) .games-extra {
+    display: grid;
   }
 
   .games-extra {
