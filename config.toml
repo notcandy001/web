@@ -24,6 +24,7 @@ styles = ["custom.css"]
 accent_color = "hsl(0, 0%, 60%)"
 date_format = "%d %b %Y"
 audio_button = true
+discord_user_id = "1396465884507410452"
 
 [extra.meta]
 favicon = true

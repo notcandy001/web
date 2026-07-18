@@ -141,6 +141,22 @@ Where and when to find me online.
 </li>
 
 <li>
+<article class="fancy-list games">
+<strong class="title">Games I Like</strong>
+<ul>
+<li><a href="https://www.minecraft.net/"><img class="transparent no-hover" alt="Cover art of Minecraft." src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" /></a></li>
+<li><a href="https://store.steampowered.com/app/1091500"><img class="transparent no-hover" alt="Capsule art of Cyberpunk 2077." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/1245620"><img class="transparent no-hover" alt="Capsule art of Elden Ring." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/2358720"><img class="transparent no-hover" alt="Capsule art of Black Myth: Wukong." src="https://shared.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/2215430"><img class="transparent no-hover" alt="Capsule art of Ghost of Tsushima Director's Cut." src="https://shared.steamstatic.com/store_item_assets/steam/apps/2215430/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/1222140"><img class="transparent no-hover" alt="Capsule art of Detroit: Become Human." src="https://shared.steamstatic.com/store_item_assets/steam/apps/1222140/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/447040"><img class="transparent no-hover" alt="Capsule art of Watch Dogs 2." src="https://shared.steamstatic.com/store_item_assets/steam/apps/447040/library_600x900.jpg" /></a></li>
+<li><a href="https://store.steampowered.com/app/271590"><img class="transparent no-hover" alt="Capsule art of Grand Theft Auto V." src="https://shared.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900.jpg" /></a></li>
+</ul>
+</article>
+</li>
+
+<li>
 <article class="online fancy-list">
 <strong id="socials" class="title">Socials</strong>
 {{ online(type="socials") }}
